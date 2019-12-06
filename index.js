@@ -13,7 +13,19 @@ function happyMessage(){
   // You go!
 }
 
+function sillyMessage(){
+  console.log("You're silly!")
+  displayReply.innerText = 'Sounds...good?';
+  displayReply.innerText = 'Interesting response'
+  displayReply.innerText = 'Me too.'
+}
 
+function cryingMessage(){
+  console.log("you're crying")
+  displayReply.innerText = 'Do you want to talk?'
+  // what can i do?
+  // We can cry together!
+}
 
 happy.addEventListener('click', happyMessage);
 silly.addEventListener('click', sillyMessage);
